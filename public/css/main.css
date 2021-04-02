@@ -1,0 +1,133 @@
+.ct2{
+
+    padding-left: 30px;
+    padding-right: 10px;
+    background-color: #000000a1;
+}
+.ct3{
+    min-width: 270px;
+    background-color: #000000a1;
+}
+.footer-mio{
+    position: fixed;
+    width: 100%;
+    
+}
+.page-footer{
+    background-color:rgb(206 65 43);
+}
+.danger-color{
+    background-color:rgb(206 65 43) !important;
+}
+.fa{
+    margin-top: 13px;
+
+}
+#video{
+    position: fixed;
+    width: 100%;
+    height: auto;
+    visibility: visible;
+    top: 0;
+    z-index: -10;
+}
+
+#videouser{
+    
+    width: 1108px;
+}
+th{
+    color: white;
+}
+td{
+    color: white;
+}
+label{
+    color: white;
+}
+input{
+    color: white;
+}
+body{
+    color: white;
+}
+.card-invisible{
+    background-color: #000000a1;
+}
+h5{
+    margin-left: 50px;
+}
+.tamano-tabla{
+    font-size: 30px;
+    padding-right: 10px;
+}
+.recursos{
+    width: 45%;
+}
+h4{
+    color: black;
+}
+.mb-0{
+    color: black;
+}
+p{
+    margin-left: 10px;
+}
+.tops{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.row{
+    margin-bottom: 80px;
+}
+.btn-floating{
+    position: relative;
+}
+.container{
+    margin-top: 10px;
+    padding-bottom: 100px;
+}
+#videoplayer{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+#rawvideo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+    /* Código para colorear la barra de scroll de tu web */
+body::-webkit-scrollbar {
+    width: 1em;
+    }
+    body::-webkit-scrollbar-track {
+    /* Si no quieres los bordes redondeados borra la siguiente línea */
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px  #F5F5F5;
+    }
+    body::-webkit-scrollbar-thumb {
+    background-color: rgb(206 65 43);
+    /* Si no quieres los bordes redondeados descomenta la siguiente línea para utilizar una línea superior e inferior para darle una sensación de profundidad a la barra */
+    /* outline: 1px solid #333; */
+   /* border-radius: 10px; */
+}
+.online{
+    color: green;
+    font-size: 20px;
+    font-family: cursive;
+    margin-bottom: 0;
+}
+.offline{
+    color: #050101;
+    font-size: 20px;
+    font-family: cursive;
+    margin-bottom: 0;
+}
