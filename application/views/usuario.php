@@ -29,6 +29,8 @@ foreach ($rest as $key){
     $hueso = $datos3['bone.fragments'];
     $cuero = $datos3['leather'];
     $tiempo = $key['Time Played'];
+    $explosivos = $datos['ExplosivesThrown'];
+    $misiles = $datos['RocketsLaunched'];
     $tiempo2 = $tiempo / 60;
     $tiempo3 = $tiempo2 / 60;
     $tiempo4 = substr("$tiempo3", 0,6);
@@ -73,6 +75,20 @@ echo $kd;
 <?php
 
 echo $mineados;
+?>
+</p>
+<p>
+-Misiles:
+<?php
+
+echo $misiles;
+?>
+</p>
+<p>
+-Explosivos Lanzados:
+<?php
+
+echo $explosivos;
 ?>
 </p>
   </div>
