@@ -12,8 +12,8 @@
                             <h4 class="font-weight-bold">v0.9</h4>
                             <p class="text-muted mt-3 "><i class="fa fa-clock" aria-hidden="true"></i> 29 Marzo 2021</p>
                             <p class="mb-0">Desactivado Temporalmente los Tops.</p>
-
-
+                            <p class="mb-0">Agregada Madera a Pagina de Usuario.</p>
+                            <p class="mb-0">Arreglado Error de pagina de Usuario que mostraba errores si los datos eran nulos.</p>
 
                         </div>
                     </li>

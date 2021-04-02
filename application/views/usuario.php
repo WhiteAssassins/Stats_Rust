@@ -1,6 +1,7 @@
 
 <video id="video" loop autoplay preload muted class="mask flex-center rgba-black-strong">
   <?php
+  error_reporting(E_ALL & ~E_DEPRECATED & ~E_STRICT & ~E_WARNING & ~E_NOTICE);
     $fondo[0] = "img/fondo.mp4";
     $fondo[1] = "img/fondo2.mp4";
     $fondo[2] = "img/fondo3.mp4";
@@ -28,6 +29,7 @@ foreach ($rest as $key){
     $tela = $datos3['cloth'];
     $hueso = $datos3['bone.fragments'];
     $cuero = $datos3['leather'];
+    $madera = $datos3['wood'];
     $tiempo = $key['Time Played'];
     $explosivos = $datos['ExplosivesThrown'];
     $misiles = $datos['RocketsLaunched'];
@@ -40,8 +42,12 @@ foreach ($rest as $key){
     $porc2 = substr("$porc", 0,4);
     $muertesratio = $datos['Deaths'];
     $killsratio = $datos['Kills'];
+    if ($killsratio == 0){
+    
+  }else{
     $kd = $killsratio / $muertesratio;
-    $mineados = $metal + $piedra + $sulfuro + $tela + $grasa + $hueso + $cuero;
+  }
+    $mineados = $metal + $piedra + $sulfuro + $tela + $grasa + $hueso + $cuero + $madera;
 ?>
 <div class="container">
 <div class="card  card-invisible z-depth-5">
@@ -135,10 +141,10 @@ var myPieChart = new Chart(ctxP, {
   plugins: [ChartDataLabels],
   type: 'bar',
   data: {
-    labels: ["Metal", "Piedra", "Sulfuro", "Grasa", "Carne", "Tela", "Hueso", "Cuero"],
+    labels: ["Madera", "Metal", "Piedra", "Sulfuro", "Grasa", "Carne", "Tela", "Hueso", "Cuero"],
     datasets: [{
       label: "Recursos Mineados",
-      data: ['<?php echo $metal;?>','<?php echo $piedra;?>','<?php echo $sulfuro;?>','<?php echo $grasa;?>','<?php echo $carne;?>','<?php echo $tela;?>','<?php echo $hueso;?>','<?php echo $cuero;?>',],
+      data: ['<?php echo $madera;?>','<?php echo $metal;?>','<?php echo $piedra;?>','<?php echo $sulfuro;?>','<?php echo $grasa;?>','<?php echo $carne;?>','<?php echo $tela;?>','<?php echo $hueso;?>','<?php echo $cuero;?>',],
       backgroundColor: ["#F7464A", "#46BFBD", "#FDB45C", "#949FB1", "#6610f2", "#4D5360", "#ffffff", "#401515"],
       hoverBackgroundColor: ["#FF5A5E", "#5AD3D1", "#FFC870", "#A8B3C5", "#616774", "#616774", "#616774", "#616774"]
     }]
