@@ -3,6 +3,7 @@
 
 <video id="video" loop autoplay preload muted class="mask flex-center rgba-black-strong">
   <?php
+  error_reporting(E_ALL & ~E_DEPRECATED & ~E_STRICT & ~E_WARNING & ~E_NOTICE);
     $fondo[0] = "img/fondo.mp4";
     $fondo[1] = "img/fondo2.mp4";
     $fondo[2] = "img/fondo3.mp4";

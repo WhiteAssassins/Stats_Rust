@@ -42,7 +42,7 @@ foreach ($rest as $key){
     $porc2 = substr("$porc", 0,4);
     $muertesratio = $datos['Deaths'];
     $killsratio = $datos['Kills'];
-    if ($killsratio == 0){
+    if ($killsratio == 0 || $muertesratio == 0){
     
   }else{
     $kd = $killsratio / $muertesratio;
@@ -100,6 +100,7 @@ echo $explosivos;
   </div>
   <div class="recursos">
   <canvas id="kills"></canvas>
+ 
   </div>
   <canvas id="recursos"></canvas>
  
@@ -147,8 +148,11 @@ var myPieChart = new Chart(ctxP, {
       data: ['<?php echo $madera;?>','<?php echo $metal;?>','<?php echo $piedra;?>','<?php echo $sulfuro;?>','<?php echo $grasa;?>','<?php echo $carne;?>','<?php echo $tela;?>','<?php echo $hueso;?>','<?php echo $cuero;?>',],
       backgroundColor: ["#F7464A", "#46BFBD", "#FDB45C", "#949FB1", "#6610f2", "#4D5360", "#ffffff", "#401515"],
       hoverBackgroundColor: ["#FF5A5E", "#5AD3D1", "#FFC870", "#A8B3C5", "#616774", "#616774", "#616774", "#616774"]
+      
     }]
+    
   },
+  
   
   options: {
     responsive: true,
@@ -162,4 +166,6 @@ var myPieChart = new Chart(ctxP, {
     
   }
 });
+
+
 </script>
