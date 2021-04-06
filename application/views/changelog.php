@@ -13,7 +13,11 @@
                             <p class="text-muted mt-3 "><i class="fa fa-clock" aria-hidden="true"></i> 29 Marzo 2021</p>
                             <p class="mb-0">Desactivado Temporalmente los Tops.</p>
                             <p class="mb-0">Agregada Madera a Pagina de Usuario.</p>
-                            <p class="mb-0">Arreglado Error de pagina de Usuario que mostraba errores si los datos eran nulos.</p>
+                            <p class="mb-0">Arreglado Error de la pagina Principal que mostraba errores si los datos eran nulos.</p>
+                            <p class="mb-0">Arreglado Error de la pagina de Usuario que mostraba errores si los datos eran nulos.</p>
+                            <p class="mb-0">Agregado Cambio de Idiomas (Español,Ingles,Ruso,Chino,Frances,Aleman).</p>
+                            <p class="mb-0">Idioma por Defecto Ingles.</p>
+                            <p class="mb-0">Mejora de Seguridad.</p>
 
                         </div>
                     </li>

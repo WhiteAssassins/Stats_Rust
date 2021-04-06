@@ -1,7 +1,7 @@
 <footer class="page-footer font-small danger-color footer-mio"    style="z-index: 10;">
 
 
-  <div class="footer-copyright text-center py-3">© <?php echo date('Y')?> Copyright |
+  <div class="footer-copyright text-center py-3">© <?php echo date('Y')?> {copy} |
     <a href="">WhiteAssassins</a>
   </div>
 

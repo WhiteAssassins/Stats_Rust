@@ -19,31 +19,31 @@
 <table id="dtMaterialDesignExample" class="table table-fixed " cellspacing="0" width="100%">
   <thead>
     <tr>
-      <th class="th-sm">Nombre
+      <th class="th-sm">{nombre}
       </th>
-      <th class="th-sm">Kills
+      <th class="th-sm">{kills}
       </th>
-      <th class="th-sm">Muertes
+      <th class="th-sm">{muertes}
       </th>
-      <th class="th-sm">Suicidios
+      <th class="th-sm">{suicidios}
       </th>
-      <th class="th-sm">Disparos
+      <th class="th-sm">{disparos}
       </th>
-      <th class="th-sm">HeadShots
+      <th class="th-sm">{headshots}
       </th>
-      <th class="th-sm">Items Creados
+      <th class="th-sm">{itemscreados}
       </th>
-      <th class="th-sm">Items Reparados
+      <th class="th-sm">{itemsreparados}
       </th>
-      <th class="th-sm">Mejoras
+      <th class="th-sm">{mejoras}
       </th>
-      <th class="th-sm">Explosivos Lanzados
+      <th class="th-sm">{explosivos}
       </th>
-      <th class="th-sm">Armas Recargadas
+      <th class="th-sm">{armasrecargadas}
       </th>
-      <th class="th-sm">Misiles Lanzados
+      <th class="th-sm">{misiles}
       </th>
-      <th class="th-sm">Ver
+      <th class="th-sm">{ver}
       </th>
 
     </tr>
@@ -73,7 +73,7 @@ foreach ($mostrarjugadores as $key){
       <td><?php print_r($datos['RocketsLaunched']);?></td>
       <form method="post" action="home/verusuario">
       <input type="hidden" name="userid" value="<?php echo $key['userid']; ?>">
-    <td><button class="btn btn-danger btn-rounded" type="submit">Ver</button></td>
+    <td><button class="btn btn-danger btn-rounded" type="submit">{ver}</button></td>
     </form>
     </tr>
     
@@ -82,32 +82,32 @@ foreach ($mostrarjugadores as $key){
   </tbody>
   <tfoot>
   <tr>
-      <th>Nombre
+      <th>{nombre}
       </th>
 
-      <th>Kills
+      <th>{kills}
       </th>
-      <th>Muertes
+      <th>{muertes}
       </th>
-      <th>Suicidios
+      <th>{suicidios}
       </th>
-      <th>Disparos
+      <th>{disparos}
       </th>
-      <th>HeadShots
+      <th>{headshots}
       </th>
-      <th>Items Creados
+      <th>{itemscreados}
       </th>
-      <th>Items Reparados
+      <th>{itemsreparados}
       </th>
-      <th>Mejoras
+      <th>{mejoras}
       </th>
-      <th>Explosivos Lanzados
+      <th>{explosivos}
       </th>
-      <th>Armas Recargadas
+      <th>{armasrecargadas}
       </th>
-      <th>Misiles Lanzados
+      <th>{misiles}
       </th>
-      <th>Ver
+      <th>{ver}
       </th>
       
 

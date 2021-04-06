@@ -55,14 +55,14 @@ foreach ($rest as $key){
 
 <div class="card-body">
 <div class="chip chip-md pink darken-2 white-text waves-effect">
-  <h4 class="card-title">Nombre: <a><?php echo $key['name'];?></a></h4>
+  <h4 class="card-title">{nombre}: <a><?php echo $key['name'];?></a></h4>
   </div>
   <div class="row">
-<p>-Tiempo Jugado: <?php 
+<p>-{tiempojugado}: <?php 
 
 echo $tiempo4;
-?> Horas</p>
-<p>-Efectividad de Disparos (HeadShots):
+?> {horas}</p>
+<p>-{efectividaddedisparos} ({headshots}):
 <?php
 
 echo $porc2;
@@ -70,28 +70,28 @@ echo $porc2;
 %
 </p>
 <p>
--K/D Ratio:
+-K/D {ratio}:
 <?php
 
 echo $kd;
 ?>
 </p>
 <p>
--Recursos Mineados:
+-{recursosmineados}:
 <?php
 
 echo $mineados;
 ?>
 </p>
 <p>
--Misiles:
+-{misiles}:
 <?php
 
 echo $misiles;
 ?>
 </p>
 <p>
--Explosivos Lanzados:
+-{explosivoslanzados}:
 <?php
 
 echo $explosivos;
@@ -108,7 +108,7 @@ echo $explosivos;
  // printf($datos2);
   ?>
 
-  <a href="<?php echo base_url()?>" class="btn danger-color">Volver</a>
+  <a href="<?php echo base_url()?>" class="btn danger-color">{volver}</a>
 
 </div>
 </div>
@@ -123,7 +123,7 @@ var ctxD = document.getElementById("kills").getContext('2d');
 var myLineChart = new Chart(ctxD, {
 type: 'pie',
 data: {
-labels: ["Kills", "Muertes", "Suicidios"],
+labels: ["{kills}", "{muertes}", "{suicidios}"],
 datasets: [{
 data: ['<?php echo $kills;?>','<?php echo $muertes;?>','<?php echo $suicidios;?>'],
 backgroundColor: ["#F7464A", "#46BFBD", "#FDB45C"],
@@ -142,9 +142,9 @@ var myPieChart = new Chart(ctxP, {
   plugins: [ChartDataLabels],
   type: 'bar',
   data: {
-    labels: ["Madera", "Metal", "Piedra", "Sulfuro", "Grasa", "Carne", "Tela", "Hueso", "Cuero"],
+    labels: ["{madera}", "{metal}", "{piedra}", "{sulfuro}", "{grasa}", "{carne}", "{tela}", "{hueso}", "{cuero}"],
     datasets: [{
-      label: "Recursos Mineados",
+      label: "{recursosmineados}",
       data: ['<?php echo $madera;?>','<?php echo $metal;?>','<?php echo $piedra;?>','<?php echo $sulfuro;?>','<?php echo $grasa;?>','<?php echo $carne;?>','<?php echo $tela;?>','<?php echo $hueso;?>','<?php echo $cuero;?>',],
       backgroundColor: ["#F7464A", "#46BFBD", "#FDB45C", "#949FB1", "#6610f2", "#4D5360", "#ffffff", "#401515"],
       hoverBackgroundColor: ["#FF5A5E", "#5AD3D1", "#FFC870", "#A8B3C5", "#616774", "#616774", "#616774", "#616774"]
