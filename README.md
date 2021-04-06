@@ -120,3 +120,8 @@ $config['base_url'] = "http://estadisticasrust.com/";
 ```
 * 7 Edit the file in the following address application / views / navbar.php and in line 2 put the data of your server
 * 8 Enjoy your Page
+
+#Adicional
+*Discord https://discord.gg/r3RcQ8vb
+*Instagram https://www.instagram.com/whiteassassins/
+*Twitter https://twitter.com/Christo95776133/
