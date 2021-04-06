@@ -18,6 +18,7 @@
                             <p class="mb-0">Agregado Cambio de Idiomas (Español,Ingles,Ruso,Chino,Frances,Aleman).</p>
                             <p class="mb-0">Idioma por Defecto Ingles.</p>
                             <p class="mb-0">Mejora de Seguridad.</p>
+                            <p class="mb-0">Mejoras en Traducciones.</p>
 
                         </div>
                     </li>
