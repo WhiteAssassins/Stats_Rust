@@ -19,6 +19,7 @@
                             <p class="mb-0">Idioma por Defecto Ingles.</p>
                             <p class="mb-0">Mejora de Seguridad.</p>
                             <p class="mb-0">Mejoras en Traducciones.</p>
+                            <p class="mb-0">Pagina de error 404 personalizada.</p>
 
                         </div>
                     </li>

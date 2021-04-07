@@ -757,4 +757,8 @@ class Home extends CI_Controller {
 		$base_url = base_url();
 		header("Location: $base_url");
 	}
+	public function errormissing(){
+		$this->load->view('header');
+		$this->load->view('404');
+	}
 }
