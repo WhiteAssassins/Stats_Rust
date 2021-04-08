@@ -1,4 +1,5 @@
 # Stats_Rust
+* Ejemplo - Example http://statsrust.atwebpages.com
 # Español
 Pagina de Estadisticas de Rust compatible con php 8.0
 # Requerimientos
