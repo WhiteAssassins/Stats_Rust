@@ -14,6 +14,7 @@ $id = $this->input->post('userid');
 $resultado = $this->db->get_where('playerdatabase', array('userid' => $id));
 $rest = $resultado->result_array(); 
 
+
 foreach ($rest as $key){
     $datos = json_decode($key['StatisticsDB'], True);
     $datos2 = json_encode($datos['Gathered'], True);

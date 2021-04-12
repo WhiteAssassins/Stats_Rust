@@ -17,7 +17,7 @@
 
             <p><i class="fas fa-phone"></i>+53 55384444 <i class="fas fa-phone"></i>+53 78709669</p>
      
-            <a class="btn-floating btn-tw" type="button" role="button" href="https://twitter.com/Christo95776133" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a class="btn-floating btn-tw" type="button" role="button" href="https://twitter.com/whiteassassinsr" target="_blank"><i class="fab fa-twitter"></i></a>
             <a class="btn-floating btn-ins" type="button" role="button" href="https://instagram.com/whiteassassins" target="_blank"><i class="fab fa-instagram"></i></a>
             <a class="btn-floating btn-git" type="button" role="button" href="https://github.com/WhiteAssassins" target="_blank"><i class="fab fa-github"></i></a>
             <a class="btn-floating  btn-whatsapp" type="button" role="button" href=" https://api.whatsapp.com/send?phone=5355384444" target="_blank"><i class="fab fa-whatsapp"></i></a>

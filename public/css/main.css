@@ -8,6 +8,12 @@
     min-width: 270px;
     background-color: #000000a1;
 }
+.ct4{
+    background-color: #000000a1;
+    border-radius: 10px;
+    margin-top: 100px;
+    padding-top: 80px;
+}
 .footer-mio{
     position: fixed;
     width: 100%;
@@ -62,7 +68,8 @@ h5{
     padding-right: 10px;
 }
 .recursos{
-    width: 45%;
+    width: 50%;
+    display: flex;
 }
 h4{
     color: black;

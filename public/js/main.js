@@ -11,4 +11,12 @@ function changelog(){
      toastr["error"]("Bienvenido al Changelog")
      }
 
+     $(document.body).on('click','.idioma-es',function(){
+        if($.cookie('idioma') == 0 || !$.cookie('idioma')){
+            $.cookie('idioma',1)
 
+        }else{
+            $.cookie('idioma',0)
+
+        }
+    })

@@ -14,7 +14,7 @@
 
 
 <div class="table-responsive-sm w-auto table-fixed text-nowrap">
-<div class="ct2 z-depth-5 ">
+<div class="ct2 z-deppth-5 ">
 
 <table id="dtMaterialDesignExample" class="table table-fixed " cellspacing="0" width="100%">
   <thead>
