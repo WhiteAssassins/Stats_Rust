@@ -126,3 +126,17 @@ $config['base_url'] = "http://estadisticasrust.com/";
 * Discord https://discord.gg/r3RcQ8vb
 * Instagram https://www.instagram.com/whiteassassins/
 * Twitter https://twitter.com/Christo95776133/
+
+# Bitcoin
+bc1qfk6thlq06e45h0lsm6cgvrrhv4yufn36xelwdq
+# Ethereum
+0xe8CC5a975aEB4cC09701221eF11bf096055C1160
+# DogeCoin
+DAJ2mSBN2vg3hBdMcUiBNoQoYVgopxySuT
+# LiteCoin
+ltc1qnsk80ene00982rkjg8kc8gefyjd4lkwv9x97vt
+# Ripple
+rPdTKkWPxM9FhbRm2kPKMiZfwgoMrWCupx
+# Monero
+42Z81ta12A4JULLDQNCq88JHaQM2pJrZsQUoahUV9WkFC79NzWJfQX2Uie9SRy8jvgcMHKFBgCJXygYvdfcGADXz7Ka3Ejr
+
